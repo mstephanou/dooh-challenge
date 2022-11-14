@@ -1,0 +1,85 @@
+{
+  "config": {
+    "$": {
+      "timestamp": "2022-10-13T00:00:00Z"
+    },
+    "title": ["Coffee Shop - Campaign"],
+    "screen": ["Piccadilly Circus"],
+    "generator": ["DOOH.com DELIVER"],
+    "dropdown": [
+      {
+        "d": [
+          {
+            "$": {
+              "code": "408463989",
+              "schedule": "s1"
+            }
+          },
+          {
+            "$": {
+              "code": "408677622",
+              "schedule": "s2"
+            }
+          },
+          {
+            "$": {
+              "code": "408750020",
+              "schedule": "s3"
+            }
+          }
+        ]
+      }
+    ],
+    "schedules": [
+      {
+        "s": [
+          {
+            "$": {
+              "s": "s1",
+              "asset_id": "takeover_1"
+            },
+            "caption": ["Good Morning!"]
+          },
+          {
+            "$": {
+              "s": "s2",
+              "asset_id": "takeover_2"
+            },
+            "caption": ["Good Afternoon!"]
+          },
+          {
+            "$": {
+              "s": "s3",
+              "asset_id": "takeover_3"
+            },
+            "caption": ["Good Evening!"]
+          }
+        ]
+      }
+    ],
+    "assets": [
+      {
+        "asset": [
+          {
+            "$": {
+              "id": "takeover_1",
+              "path": "morning.png"
+            }
+          },
+          {
+            "$": {
+              "id": "takeover_2",
+              "path": "afternoon.png"
+            }
+          },
+          {
+            "$": {
+              "id": "takeover_3",
+              "path": "evening.png"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
